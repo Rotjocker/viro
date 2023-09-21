@@ -28,6 +28,12 @@ async def start(event):
 
 
 
+api_id = 22290890
+api_hash = "a51a3392038ccd49b3b82b1f90dab435"
+
+bot = TelegramClient('bothffjh', api_id, api_hash).start(bot_token="6201637258:AAFRDMi-CYNrkkHprfc_rDltpgJgDN8Mv-k")
+
+
 
 @bot.on(events.CallbackQuery(data=b'creat1fold'))
 async def handle_transparent(event):
